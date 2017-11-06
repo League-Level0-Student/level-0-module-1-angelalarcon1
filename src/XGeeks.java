@@ -14,10 +14,37 @@ import javax.swing.JOptionPane;
 public class XGeeks {
 public static void main(String[] args) {
 
-		// 1. Save the superpower for each person in a variable.
-
+		// 1. Save the superpower for each person in a variable
+	String ask = JOptionPane.showInputDialog(" Type a name ");
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-
+	String ans= "June";
+	String denzel ="Anything";
+	String karman ="Boring";
+	String Daniel = "I dont know";
+	if(ask.equals("June")){
+		JOptionPane.showMessageDialog(null," writing recipes");
+	
+	}
+	else if(ask.equals("denzel")){ 
+			JOptionPane.showMessageDialog(null,denzel);	
+		
+	}
+	else if(ask.equals("karman")){ 
+		JOptionPane.showMessageDialog(null,karman);	
+	
+}
+	else if(ask.equals("Daniel")){ 
+		JOptionPane.showMessageDialog(null,Daniel);	
+	
+}
+	else{JOptionPane.showMessageDialog(null, " I dont know who is that person "+ ans);
+		
+	}
+	
+	
+	
+	
+	
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
 
 	}
